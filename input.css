@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles */
+:root {
+    --primary-600: #2563eb;
+    --primary-400: #60a5fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+/* ... your custom component styles ... */
